@@ -1,0 +1,17 @@
+.mode-btn {
+  border: none;
+  cursor: pointer;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+.btn-search {
+  font-family: $site-fonts;
+  font-size: 1.6rem;
+  line-height: 23px;
+  color: $color-white;
+  padding: 12.5px 24px 13.5px;
+  background-color: $color-primary;
+  border-radius: 1rem;
+}

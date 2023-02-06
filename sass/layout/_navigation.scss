@@ -1,0 +1,27 @@
+.hidden {
+  display: none;
+  @include responsive(tablet) {
+    @include flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 4px;
+    align-items: flex-start;
+  }
+  .hub-link {
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: $color-primary;
+    margin-bottom: 20px;
+    display: block;
+  }
+}
+.hub-img {
+  img {
+    margin-bottom: 2.4rem;
+  }
+  @include responsive(tablet) {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+  }
+}

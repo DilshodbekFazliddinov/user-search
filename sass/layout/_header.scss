@@ -1,0 +1,23 @@
+header {
+  margin-top: 14.4rem;
+  margin-bottom: 3.6rem;
+  .container {
+    @include flex;
+    .logo {
+      font-weight: 700;
+      font-size: 2.6rem;
+      line-height: 0.38;
+      color: $color-logo;
+    }
+    .dark-mode {
+      @include flex;
+      gap: 1.6rem;
+    }
+    .mode {
+      font-size: 1.3rem;
+      line-height: 0.2;
+      color: $color-secondary;
+      font-weight: 700;
+    }
+  }
+}

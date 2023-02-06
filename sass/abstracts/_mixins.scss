@@ -1,0 +1,12 @@
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin responsive($breakpoints) {
+  @if ($breakpoints == tablet) {
+    @media screen and(max-width:830px) {
+      @content;
+    }
+  }
+}
