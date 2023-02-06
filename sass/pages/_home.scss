@@ -34,6 +34,7 @@
       }
       @include responsive(phone) {
         width: 15rem;
+        padding: 5px;
       }
     }
     input[type="search"]::-webkit-search-cancel-button {

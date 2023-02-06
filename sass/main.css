@@ -284,6 +284,7 @@ button {
 @media screen and (max-width: 520px) {
   .search__input .input {
     width: 15rem;
+    padding: 5px;
   }
 }
 .search__input input[type=search]::-webkit-search-cancel-button {
