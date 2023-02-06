@@ -1,6 +1,9 @@
 header {
   margin-top: 14.4rem;
   margin-bottom: 3.6rem;
+  @include responsive(tablet) {
+    margin-top: 10rem;
+  }
   .container {
     @include flex;
     .logo {

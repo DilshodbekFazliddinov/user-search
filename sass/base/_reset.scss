@@ -33,4 +33,11 @@ main {
   @include responsive(tablet) {
     width: 60rem;
   }
+  @include responsive(m-phone) {
+    width: 50rem;
+    padding: 0 2rem;
+  }
+  @include responsive(phone) {
+    width: 40rem;
+  }
 }

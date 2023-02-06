@@ -4,8 +4,11 @@
     @include flex;
     flex-direction: column;
     justify-content: start;
-    gap: 4px;
+    gap: 3px;
     align-items: flex-start;
+  }
+  @include responsive(phone) {
+    gap: 0px;
   }
   .hub-link {
     font-size: 1.6rem;
@@ -18,10 +21,18 @@
 .hub-img {
   img {
     margin-bottom: 2.4rem;
+    @include responsive(phone) {
+      width: 10rem;
+      height: 10rem;
+    }
   }
   @include responsive(tablet) {
     display: flex;
     gap: 4rem;
     align-items: center;
+  }
+  @include responsive(m-phone) {
+    gap: 2rem;
+    align-items: flex-start;
   }
 }

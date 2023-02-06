@@ -9,4 +9,14 @@
       @content;
     }
   }
+  @if ($breakpoints == m-phone) {
+    @media screen and(max-width:570px) {
+      @content;
+    }
+  }
+  @if ($breakpoints == phone) {
+    @media screen and(max-width:520px) {
+      @content;
+    }
+  }
 }
